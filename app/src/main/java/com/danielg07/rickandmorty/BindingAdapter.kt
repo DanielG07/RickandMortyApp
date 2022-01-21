@@ -22,27 +22,6 @@ fun bindImage(imgView: ImageView, imgUrl: String?){
     }
 }
 
-@BindingAdapter("name")
-fun bindName(textView: TextView, name: String?){
-    name?.let {
-        textView.text = name
-    }
-}
-
-@BindingAdapter("origin")
-fun bindOrigin(textView: TextView, origin: String?){
-    origin?.let {
-        textView.text = origin
-    }
-}
-
-@BindingAdapter("lastseen")
-fun bindLastSeen(textView: TextView, lastseen: String?){
-    lastseen?.let {
-        textView.text = lastseen
-    }
-}
-
 @BindingAdapter("status")
 fun bindStatus(imageView: ImageView, status: String?){
     when(status){

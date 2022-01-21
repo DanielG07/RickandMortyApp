@@ -12,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/layout_bg"
-        android:layout_margin="20dp">
+        android:layout_margin="8dp">
 
         <androidx.cardview.widget.CardView
             android:id="@+id/cardViewItem"
@@ -62,8 +62,7 @@
             android:layout_height="30dp"
             android:layout_marginStart="10dp"
             android:layout_marginEnd="10dp"
-            android:text=""
-            app:name="@{item.name}"
+            android:text="@{item.name}"
             app:layout_constraintBottom_toBottomOf="@+id/cardViewStatus"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/cardViewStatus"
@@ -95,8 +94,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="5dp"
             android:layout_marginEnd="10dp"
-            android:text=""
-            app:origin="@{item.origin.name}"
+            android:text="@{item.origin.name}"
             app:layout_constraintBottom_toBottomOf="@+id/textView2"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/textView2"
@@ -108,8 +106,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="5dp"
             android:layout_marginEnd="10dp"
-            android:text=""
-            app:lastseen="@{item.location.name}"
+            android:text="@{item.location.name}"
             app:layout_constraintBottom_toBottomOf="@+id/textView3"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/textView3"
